@@ -1,11 +1,21 @@
+body{
+    margin-top: 0ch;
+}
+
 p {
 }
 
 .one {
+    background-color: pink;
+    margin: 0%;
 }
 
 .two {
+    background-color: fuchsia;
+    margin: 0ch;
 }
 
 .three {
+    font-size: 5em;
+    margin-top: 4px;
 }

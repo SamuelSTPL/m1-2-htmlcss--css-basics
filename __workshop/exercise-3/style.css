@@ -1,1 +1,19 @@
-/* ...crickets... */
+
+/*Comic Sans MS Font not working for some reason*/
+p.content {
+    font-family: "Comic Sans MS", "Comic Sans", verdana, Arial;
+}
+.title{
+    margin-bottom: 0px;
+}
+p.subtitle{
+    font-weight: bold;
+    margin-top: 0px;
+    font-size: 25px;
+}
+.title, .subtitle{
+    text-align: center;
+}
+.emph{
+    font-style: italic;
+}

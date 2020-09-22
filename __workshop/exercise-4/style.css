@@ -1,4 +1,4 @@
-#centered {
+.centered {
   text-align: center;
 }
 
@@ -14,16 +14,16 @@ subtitle {
   background-color: gray;
 }
 
-#li {
+#first-element, #second-element {
   list-style-type: none;
 }
 
-#content {
+#content, #content.ul {
   text-decoration: underline;
   background: grey;
 }
 
-monospaced {
+.monospaced {
   font-family: monospace;
 }
 
@@ -32,4 +32,8 @@ p,
 h2 {
   background: grey;
   margin: 0;
+}
+h2{
+  font-size: 15px;
+  font-weight: normal;
 }

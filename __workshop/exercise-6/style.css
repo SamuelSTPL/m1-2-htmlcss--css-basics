@@ -18,24 +18,49 @@ li {
 
 /* ADD CSS BELOW */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
+  margin: 10px;
+  border-top: 1px solid black;
 }
 
 h1,
 h2 {
+  text-align: center;
+  font-family: Impact;
+  font-style: italic;
+  font-weight: bolder;
+  text-transform: uppercase;
 }
 
 h1 {
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
 }
 
 .row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
 }
 
 .col {
+  border: 3px dashed gray;
+  background-color: lightgrey;
+  padding: 30px;
 }
 
 .image {
+  max-width: 300px;
+  max-height: 200px;
 }
